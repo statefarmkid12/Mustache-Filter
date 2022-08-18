@@ -24,7 +24,7 @@ function gotPoses(results){
 }
 
 function draw(){
-    image(video, 0, 0, 600, 500);
+    image(video, 0, 0, 550, 500);
 }
 function Snapshot(){
     save("fakeMature_Picture.png")
