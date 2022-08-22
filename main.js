@@ -2,7 +2,7 @@ nose_x = 0
 nose_y = 0
 
 function preload(){
-
+    mustache = loadImage(Moustache-PNG-Pic.png)
 }
 
 function setup(){
@@ -25,6 +25,7 @@ function gotPoses(results){
 
 function draw(){
     image(video, 0, 0, 550, 500);
+    image(clown_nose, nose_x, nose_y, 30, 30)
 }
 function Snapshot(){
     save("fakeMature_Picture.png")
